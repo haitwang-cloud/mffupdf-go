@@ -1,8 +1,9 @@
-package mergeAlternately
+package Str
 
 //https://leetcode.cn/problems/merge-strings-alternately/
 
 // tags 双指针
+// 交替合并字符串
 
 func mergeAlternately(word1 string, word2 string) string {
 

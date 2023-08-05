@@ -1,6 +1,8 @@
-package mergeAlternately
+package Str
 
-import "testing"
+import (
+	"testing"
+)
 
 func Test_mergeAlternately(t *testing.T) {
 	type args struct {
