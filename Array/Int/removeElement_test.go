@@ -34,6 +34,7 @@ func Test_removeElement(t *testing.T) {
 			if got := removeElement(tt.args.nums, tt.args.val); got != tt.want {
 				t.Errorf("removeElement() = %v, want %v", got, tt.want)
 			}
+
 		})
 	}
 }
